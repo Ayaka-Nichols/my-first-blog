@@ -1,4 +1,4 @@
-![Djangogirls](photos\Djangogirls.PNG)
+![Djangogirls](./photos/Djangogirls.PNG)
 
 
 # my-first-blog
@@ -15,11 +15,11 @@ You should be able to create your own working **blog** with the source code.
 
 # Demo
 On the top page, click + on the right top corner to make a new blog post.
-![DjangogirlsDemo1](photos\DjangogirlsDemo1.png)
+![DjangogirlsDemo1](./photos/DjangogirlsDemo1.png)
 <br>
 <br>
 Then fill out the title, text, save, then voila! Now you have your first blog post appears.
-![DjamgogirlsDemo2](photos\DjangogirlsDemo2.png)
+![DjamgogirlsDemo2](./photos/DjangogirlsDemo2.png)
 
 
 # Requirement
@@ -182,7 +182,7 @@ Then fill out the title, text, save, then voila! Now you have your first blog po
       (myvenv)> python manage.py runserver
       ```
       <br>- Open http: // localhost: 8000 in your browser and you should see the django sample page.
-      ![djangoserver1](photos\djangoserver1.PNG)
+      ![djangoserver1](./photos/djangoserver1.PNG)
       ```
   9. Deploy the project
     <br>〈command-line〉
@@ -237,7 +237,7 @@ Then fill out the title, text, save, then voila! Now you have your first blog po
 10. Deploy to PythonAnywhere
       <br>- Sign up for a Python AnyWhere account at https://www.pythonanywhere.com. <br>Create an API Token by selecting Account from the menu in the upper right after creating an account.
       <br>- Open the New console located in the Dashboard's lower left corner.
-      ![pythonanywhere1](photos\pythonanywhere1.PNG)
+      ![pythonanywhere1](./photos/pythonanywhere1.PNG)
       <br>
       <br>
       <br>〈pythonAnywhere_command-line〉

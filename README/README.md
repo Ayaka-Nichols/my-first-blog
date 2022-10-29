@@ -295,10 +295,10 @@ Then fill out the title, text, save, then voila! Now you have your first blog po
       <br>- Now, the link will be connected to proj1 / urls.py proj1 / blog / urls.py proj1 / blog / views.py proj1 / blog / post list.html when you go to http: / localhost /.
       <br>
       <br>Now that I don't have proj1 / blog / post list.html yet, I get an error page when I open the page with python manage.py runserver.and the page doesn't appear, you've made a mistake in something you've typed thus far, so review it.
-      ![view1](photos\view1.PNG)
+      ![view1](./photos/view1.PNG)
       <br>- Make a view template
       <br>The page is ultimately displayed without any errors following the creation of proj1 / blog / templates / blog / post list.html and another check with python manage.py runserver. However, the page will be blank because nothing has been written thus far.
-      ![view2](photos\view2.PNG)
+      ![view2](./photos/view2.PNG)
       <br>- Let's make a blog-like page.
       <br>〈proj1/blog/templates/blog/post_list.html〉
       ```
@@ -328,7 +328,7 @@ Then fill out the title, text, save, then voila! Now you have your first blog po
 
 
       
-      ![view3](photos\view3.PNG)
+      ![view3](./photos/view3.PNG)
           <br>
 12. Deploy
     <br>- Let's upload the currently available content to PythonAnywhere.
@@ -396,7 +396,7 @@ Then fill out the title, text, save, then voila! Now you have your first blog po
   
    ```
    <br>- Check the display with python manage.py runserver to make sure the Post content you put on the admin page is now visible.
-   ![template1](photos\template1.jpg)
+   ![template1](./photos/template1.jpg)
   
   15. Arrange with CSS with Bootstrap 
     <br>- To use Bootstrap, add a link to it in the post list.html head first.
@@ -405,7 +405,7 @@ Then fill out the title, text, save, then voila! Now you have your first blog po
       <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
       <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
       ```
-      ![css1](photos\css1.PNG)
+      ![css1](./photos/css1.PNG)
       <br>- Create a CSS file
       <br>Create a CSS directory in the static directory and place the blog.css file there because Django recognizes the folder named static as a static file.
       ```
@@ -508,7 +508,7 @@ Then fill out the title, text, save, then voila! Now you have your first blog po
   {% endblock %}
   ```
   <br>- There is now a page where articles can be seen.
-  ![applicationextention1](photos\applicationextention1.png) 
+  ![applicationextention1](./photos/applicationextention1.png) 
 
 18. Deploy
   <br>〈command-line〉
@@ -619,7 +619,7 @@ To add a link to the posting form at the top of base.html, add the following lin
       return render(request, 'blog/post_edit.html', {'form': form})
   ```
   <br>- The new post page will appear as seen below if you type python manage.py runserver and open http: / localhost: 8000/post/new/ in your browser.
-  ![postform1](photos\postform1.png)
+  ![postform1](./photos/postform1.png)
 20. Create an edit form for posted posts
   <br>- Place an edit button
   <br>〈blog/templates/blog/post_detail.html〉
